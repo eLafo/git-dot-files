@@ -18,6 +18,7 @@
   hist = "log --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(red)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --graph --date=short"
   type = cat-file -t
   dump = cat-file -p
+  rmm = "!git co master && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 [color]
         ui = auto
 [credential]
