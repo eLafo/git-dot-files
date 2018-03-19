@@ -19,6 +19,7 @@
   type = cat-file -t
   dump = cat-file -p
   rmm = "!git co master && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+  commiters = "shortlog -sn"
 [color]
         ui = auto
 [credential]
