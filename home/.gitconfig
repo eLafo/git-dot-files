@@ -9,7 +9,7 @@
         autocrlf = false
         safecrlf = true
         editor = vim
-        excludesfile = home/.gitignore
+	excludesfile = /home/elafo/.gitignore
 [alias]
   co = checkout
   ci = commit
