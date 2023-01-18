@@ -8,7 +8,7 @@
 [core]
         autocrlf = false
         safecrlf = true
-        editor = vim
+	editor = vim
 	excludesfile = /home/elafo/.gitignore
 [alias]
   co = checkout
@@ -32,3 +32,7 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
